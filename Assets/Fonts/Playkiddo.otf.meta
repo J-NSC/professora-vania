@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 54397898a9d28da43928ca8f7e81630e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Playkiddo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c3035f659fd78974dae71c6a344973c2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
