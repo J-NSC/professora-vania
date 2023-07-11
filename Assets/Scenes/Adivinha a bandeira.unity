@@ -443,8 +443,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -622,8 +622,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.766, y: 20.384983}
-  m_SizeDelta: {x: 475.82, y: 50}
+  m_AnchoredPosition: {x: 26.766, y: -0.00010657}
+  m_SizeDelta: {x: 475.82, y: 207.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &849854098
 MonoBehaviour:
@@ -645,7 +645,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A QUAL ESTADO PERTENCE ESSA BANDEIRA?
+  m_text: 'ESSA BANDEIRA REPRESENTA QUAL ESTADO BRASILEIRO ?
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e1491bdf47f434c4286dd7b5ac884679, type: 2}
   m_sharedMaterial: {fileID: 5191538144220079113, guid: e1491bdf47f434c4286dd7b5ac884679, type: 2}
@@ -654,8 +656,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4279703320
+  m_fontColor: {r: 0.09433961, g: 0.09024563, b: 0.09024563, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1104,6 +1106,117 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310290721}
   m_CullTransparentMesh: 1
+--- !u!1001 &1476119538
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1713954331}
+    m_Modifications:
+    - target: {fileID: 6875608427537424109, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_Name
+      value: PopUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424109, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 246.602
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 271.1442
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 944.6697
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -545.55646
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6875608427792776441, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+      propertyPath: m_text
+      value: 'TEXTO MOSTRANDO ALGUMA CURIOSIDADE OU BREVE HISTORIA DA BANDEIRA CASO
+        O JOGADOR ACERTE '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+--- !u!224 &1476119539 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6875608427537424110, guid: 71297248c99226440bc2aa8cfe9c6372, type: 3}
+  m_PrefabInstance: {fileID: 1476119538}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1505531855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,8 +1506,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1633,6 +1746,7 @@ RectTransform:
   - {fileID: 1548471370}
   - {fileID: 385175051}
   - {fileID: 2118652365}
+  - {fileID: 1476119539}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1708,8 +1822,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1994,7 +2108,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TILAMBUCO
+  m_text: MANAUS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e1491bdf47f434c4286dd7b5ac884679, type: 2}
   m_sharedMaterial: {fileID: 5191538144220079113, guid: e1491bdf47f434c4286dd7b5ac884679, type: 2}
@@ -2003,8 +2117,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
